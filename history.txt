@@ -1,0 +1,45 @@
+    1  git pull
+    2  ls -l
+    3  rm -rf dir1/ test1/
+    4  git add .
+    5  git commit -m "Clean up directories"
+    6  git push
+    7  clear
+    8  ls
+    9  mkdir example1/ example2/ example3/
+   10  ls
+   11  mkdir example2/example4/
+   12  tree
+   13  touch example2/file2.txt example3/file1.txt example2/example4/file3.txt
+   14  tree
+   15  ls
+   16  clear
+   17  ls
+   18  git pull
+   19  ls -l
+   20  clar
+   21  clear
+   22  ls
+   23  unzip week1data.zip 
+   24  ls
+   25  tar -xf shell.tar.gz 
+   26  ls
+   27  cat data1.txt
+   28  cat data1.txt data2.txt
+   29  cat data1.txt data2.txt > amysrecords.csv
+   30  ls
+   31  clear
+   32  cat amysrecords.csv 
+   33  clear
+   34  cat amysrecords.csv | head -n 42
+   35  cat amysrecords.csv | head -n 42 | tail -n 1
+   36  clear
+   37  grep Eminem amysrecords.csv 
+   38  grep 1992 amysrecords.csv 
+   39  grep P"ink Floyd "amysrecords.csv 
+   40  grep 1970 amysrecords.csv 
+   41  grep 197[0-9] amysrecords.csv 
+   42  grep 197[0-9] amysrecords.csv | cut -d ',' -f 2
+   43  grep 197[0-9] amysrecords.csv | cut -d ',' -f 2 | sort
+   44  history
+   45  history > history.txt
